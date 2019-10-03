@@ -5,6 +5,8 @@ Official code for the ICAR 2019 paper "ANDA:  A Novel Data Augmentation Techniqu
 <img src="./documentation/flowchart.jpg">
 </p>
 
+
+
 ## STEP BY STEP USAGE
 
 - Download MSRA10K at [https://mmcheng.net/msra10k/](https://mmcheng.net/msra10k/)
@@ -12,6 +14,13 @@ Official code for the ICAR 2019 paper "ANDA:  A Novel Data Augmentation Techniqu
 - Run PConvInpainting/inpaintMSRA10K.py , --help for parameter instructions
 - Run scripts/featureRelated/computeKnn.py, --help for parameter instructions
 - Run scripts/featureRelated/anda.py, --help for parameter instructions
+
+A bash script for the entire process is available at scripts/run.sh
+
+```
+cd scripts
+bash run.sh
+```
 
 If you found this code useful for your research, please cite:
 ```
