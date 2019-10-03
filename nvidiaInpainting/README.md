@@ -1,5 +1,7 @@
+# THIS IS A FORK FROM THE ORIGINAL [REPOSITORY](https://github.com/MathiasGruber/PConv-Keras) FROM [MathiasGruber](https://github.com/MathiasGruber)
+
 # Partial Convolutions for Image Inpainting using Keras
-Keras implementation of "*Image Inpainting for Irregular Holes Using Partial Convolutions*", https://arxiv.org/abs/1804.07723. A huge shoutout the authors Guilin Liu, Fitsum A. Reda, Kevin J. Shih, Ting-Chun Wang, Andrew Tao and Bryan Catanzaro from NVIDIA corporation for releasing this awesome paper, it's been a great learning experience for me to implement the architecture, the partial convolutional layer, and the loss functions. 
+Keras implementation of "*Image Inpainting for Irregular Holes Using Partial Convolutions*", https://arxiv.org/abs/1804.07723. A huge shoutout the authors Guilin Liu, Fitsum A. Reda, Kevin J. Shih, Ting-Chun Wang, Andrew Tao and Bryan Catanzaro from NVIDIA corporation for releasing this awesome paper, it's been a great learning experience for me to implement the architecture, the partial convolutional layer, and the loss functions.
 
 <img src='./data/images/sample_results.png' />
 
@@ -20,7 +22,7 @@ Step 4: Training & testing the final architecture on ImageNet<br />
 Step 5: Simplistic attempt at predicting arbitrary image sizes through image chunking
 
 ## Pre-trained weights
-I've ported the VGG16 weights from PyTorch to keras; this means the `1/255.` pixel scaling can be used for the VGG16 network similarly to PyTorch. 
+I've ported the VGG16 weights from PyTorch to keras; this means the `1/255.` pixel scaling can be used for the VGG16 network similarly to PyTorch.
 * [Ported VGG 16 weights](https://drive.google.com/open?id=1HOzmKQFljTdKWftEP-kWD7p2paEaeHM0)
 * [PConv on Imagenet](https://drive.google.com/open?id=1OdbuNJj4gV9KUoknQG063jJrJ1srhBvU)
 * PConv on Places2 [needs training]
