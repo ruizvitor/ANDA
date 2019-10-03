@@ -47,7 +47,7 @@ def main():
     #
 
     # Change to root path
-    if os.path.basename(os.getcwd()) != 'nvidiaInpainting':
+    if os.path.basename(os.getcwd()) != 'PConvInpainting':
         os.chdir('..')
 
 
