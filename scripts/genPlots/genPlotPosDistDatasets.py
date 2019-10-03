@@ -1,3 +1,28 @@
+###############################################################################
+#MIT License
+#
+#Copyright (c) 2019 Daniel Vitor Ruiz
+#
+#Permission is hereby granted, free of charge, to any person obtaining a copy
+#of this software and associated documentation files (the "Software"), to deal
+#in the Software without restriction, including without limitation the rights
+#to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+#copies of the Software, and to permit persons to whom the Software is
+#furnished to do so, subject to the following conditions:
+#
+#The above copyright notice and this permission notice shall be included in all
+#copies or substantial portions of the Software.
+#
+#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+#IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+#FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+#AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+#LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+#OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+#SOFTWARE.
+###############################################################################
+
+
 import os
 import cv2
 import numpy as np
@@ -6,26 +31,6 @@ import time
 import random
 import matplotlib.pyplot as plt
 from scipy.stats import gaussian_kde
-# from scipy.interpolate import interpn
-
-# SETTINGS
-
-# def density_scatter( x , y, ax = None, sort = True, bins = 20, **kwargs )   :
-#     """
-#     Scatter plot colored by 2d histogram
-#     """
-#     if ax is None :
-#         fig , ax = plt.subplots()
-#     data , x_e, y_e = np.histogram2d( x, y, bins = bins)
-#     z = interpn( ( 0.5*(x_e[1:] + x_e[:-1]) , 0.5*(y_e[1:]+y_e[:-1]) ) , data , np.vstack([x,y]).T , method = "splinef2d", bounds_error = False )
-#
-#     # Sort the points by density, so that the densest points are plotted last
-#     if sort :
-#         idx = z.argsort()
-#         x, y, z = x[idx], y[idx], z[idx]
-#
-#     ax.scatter( x, y, c=z, s=10,  **kwargs )
-#     return ax
 
 savePath="plots/"
 
@@ -71,8 +76,7 @@ def main():
             maskName = i
             maskFile = Image.open(FOLDER_MASK + maskName)
             mask = np.array(maskFile)
-            # h,w = mask.shape
-            # h,w,_ = mask.shape
+
             shape = mask.shape
             h = shape[0]
             w = shape[1]
