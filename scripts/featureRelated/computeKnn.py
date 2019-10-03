@@ -149,7 +149,7 @@ def main():
     ##
 
     existsDataSetFile = os.path.isfile('dataset.txt')
-    if not(existsObj):
+    if not(existsDataSetFile):
         with open('dataset.txt', 'w') as fd:
             for i in range(0,10000):
                 print(i, file=fd)
