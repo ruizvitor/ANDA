@@ -83,6 +83,19 @@ def parse_args():
 
     return  parser.parse_args()
 
+#CALL PARSER
+args = parse_args()
+#
+
+# SETTINGS
+OBJ_FOLDER_IMG = args.obj_path
+OBJ_FOLDER_MASK = args.obj_mask_path
+BG_FOLDER_IMG = args.bg_path
+NBINS = args.nbins
+DATASET_SIZE = args.size
+N_NEIGHBORS = args.k
+METRIC_KNN = args.metric_knn
+##
 
 def getHistograms(img):
     imgHsv = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)
@@ -133,20 +146,6 @@ def getHistogramsWithMask(img, mask):
     return hist
 
 def main():
-
-    #CALL PARSER
-    args = parse_args()
-    #
-
-    # SETTINGS
-    OBJ_FOLDER_IMG = args.obj_path
-    OBJ_FOLDER_MASK = args.obj_mask_path
-    BG_FOLDER_IMG = args.bg_path
-    NBINS = args.nbins
-    DATASET_SIZE = args.size
-    N_NEIGHBORS = args.k
-    METRIC_KNN = args.metric_knn
-    ##
 
     existsDataSetFile = os.path.isfile('dataset.txt')
     if not(existsDataSetFile):
