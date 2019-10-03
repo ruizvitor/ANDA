@@ -148,6 +148,12 @@ def main():
     METRIC_KNN = args.metric_knn
     ##
 
+    existsDataSetFile = os.path.isfile('dataset.txt')
+    if not(existsObj):
+        with open('dataset.txt', 'w') as fd:
+            for i in range(0,10000):
+                print(i, file=fd)
+
     print("now obj")
     existsObj = os.path.isfile('histogramsOBJ.npy')
     if not(existsObj):
