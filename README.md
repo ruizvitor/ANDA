@@ -1,5 +1,5 @@
 ## ANDA:  A Novel Data Augmentation Technique Applied to Salient Object Detection
-Official code for the ICAR 2019 paper "ANDA:  A Novel Data Augmentation Technique Applied to Salient Object Detection"
+Official code for the ICAR 2019 paper ["ANDA:  A Novel Data Augmentation Technique Applied to Salient Object Detection"](https://arxiv.org/abs/1910.01256)
 
 <p align="center">
 <img src="./documentation/flowchart.jpg">
