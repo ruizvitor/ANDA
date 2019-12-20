@@ -27,12 +27,12 @@ bash run.sh
 ### CITATION:
 If you found this code useful for your research, please cite:
 ```
-@article{ruiz2019anda,
-    title={ANDA: A Novel Data Augmentation Technique Applied to Salient Object Detection},
+@INPROCEEDINGS{ruiz2019anda,
+    title={{ANDA}: A Novel Data Augmentation Technique Applied to Salient Object Detection},
     author={Daniel V. Ruiz and Bruno A. Krinski and Eduardo Todt},
-    journal = {arXiv preprint},
-    volume = {arXiv:1910.01256},
+    booktitle={International Conference on Advanced Robotics~(ICAR)},
     pages = {1-6},
+    month = {December},
     year={2019}
 }
 ```
