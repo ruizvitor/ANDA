@@ -1,0 +1,12 @@
+PConvInpainting/output/
+plots/
+scripts/MSRA10K_Imgs_GT.zip
+scripts/MSRA10K_Imgs_GT/
+scripts/featureRelated/dataset.txt
+scripts/featureRelated/distances_cosine.txt
+scripts/featureRelated/histogramsBG.npy
+scripts/featureRelated/histogramsOBJ.npy
+scripts/featureRelated/indices_cosine.txt
+scripts/featureRelated/output/
+scripts/featureRelated/tmp/
+scripts/genPlots/plots/
