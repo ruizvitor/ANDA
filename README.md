@@ -28,13 +28,15 @@ bash run.sh
 If you found this code useful for your research, please cite:
 ```
 @INPROCEEDINGS{ruiz2019anda,
-    title={{ANDA}: A Novel Data Augmentation Technique Applied to Salient Object Detection},
-    author={Daniel V. Ruiz and Bruno A. Krinski and Eduardo Todt},
-    booktitle={International Conference on Advanced Robotics~(ICAR)},
-    pages = {1-6},
-    month = {December},
-    year={2019}
-}
+author={D. V. {Ruiz} and B. A. {Krinski} and E. {Todt}},
+booktitle={2019 19th International Conference on Advanced Robotics (ICAR)},
+title={ANDA: A Novel Data Augmentation Technique Applied to Salient Object Detection},
+year={2019},
+pages={487-492},
+keywords={feature extraction;learning (artificial intelligence);neural nets;object detection;video signal processing;image cropping;ANDA technique;labeled salient objects;image inpainting;background information;data augmentation technique;salient object detection context;mean absolute error;F-measure},
+doi={10.1109/ICAR46387.2019.8981655},
+ISSN={null},
+month={Dec},}
 ```
 
 ### DISCLAIMER:
