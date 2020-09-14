@@ -1,4 +1,4 @@
-### Attention this repository is no longer maintained
+# Attention this repository is no longer maintained
 Please refer to [https://github.com/VRI-UFPR/ANDA](https://github.com/VRI-UFPR/ANDA) from now on.
 
 ## ANDA:  A Novel Data Augmentation Technique Applied to Salient Object Detection
