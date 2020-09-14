@@ -1,3 +1,6 @@
+### Attention this repository is no longer maintained
+Please refer to [https://github.com/VRI-UFPR/ANDA](https://github.com/VRI-UFPR/ANDA) from now on.
+
 ## ANDA:  A Novel Data Augmentation Technique Applied to Salient Object Detection
 Official code for the ICAR 2019 paper ["ANDA:  A Novel Data Augmentation Technique Applied to Salient Object Detection"](https://arxiv.org/abs/1910.01256)
 
